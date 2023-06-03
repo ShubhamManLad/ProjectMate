@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Projects">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/All_Projects"
+                    android:title="All Projects" />
+
+                <item
+                    android:id="@+id/My_Projects"
+                    android:title="My Projects" />
+
+                <item
+                    android:id="@+id/Ongoing_Projects"
+                    android:title="Ongoing Projects"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/Notifications"
+                    android:title="Notifications"/>
+
+                <item
+                    android:id="@+id/save_blogs"
+                    android:title="Saved_Blogs"/>
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout" />
+
+
+            </group>
+        </menu>
+    </item>
+</menu>

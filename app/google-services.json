@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158748362348",
+    "firebase_url": "https://projectmate-2c975-default-rtdb.firebaseio.com",
+    "project_id": "projectmate-2c975",
+    "storage_bucket": "projectmate-2c975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158748362348:android:31c7d3e476c408dea9ba49",
+        "android_client_info": {
+          "package_name": "com.eample.projectmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158748362348-v8fvprlut0l1jb9efkatgmj6m27ujbck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0FtNBrqrR0iTzOGdcwcPouQQ5sfO_oho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158748362348-v8fvprlut0l1jb9efkatgmj6m27ujbck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

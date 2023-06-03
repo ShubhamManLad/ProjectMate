@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InterestsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Interests"
+        android:textSize="48sp"
+        android:layout_margin="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Select the categories you are interested in:"/>
+
+    <LinearLayout
+        android:id="@+id/interestRG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/fwebRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Front-end Web Developer"/>
+
+        <CheckBox
+            android:id="@+id/bwebRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back-end Web Developer"/>
+
+        <CheckBox
+            android:id="@+id/webRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full-stack Web Developer"/>
+
+        <CheckBox
+            android:id="@+id/jappRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Developer (Java)"/>
+
+        <CheckBox
+            android:id="@+id/kappRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Developer (Kotlin)"/>
+
+        <CheckBox
+            android:id="@+id/fappRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Developer (Flutter)"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveInterest_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
